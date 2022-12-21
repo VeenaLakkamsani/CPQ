@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RICOH-SNOW-Automation]" guice-stage="DEVELOPMENT">
+  <parameter name="Project" value="SNOW"/>
+  <parameter name="password" value="Ricoh@2022"/>
+  <parameter name="AppTestEnv" value="qa"/>
+  <parameter name="BrowserUT" value="chrome"/>
+  <parameter name="loginType" value="NonSSO"/>
+  <parameter name="ExecutionEnv" value="local"/>
+  <parameter name="userRole" value="girish.bandaru@ricoh-usa.com"/>
+  <parameter name="testRunName" value="Regression testing"/>
+  <listeners>
+    <listener class-name="ricoh.core.listeners.TestNGListener"/>
+  </listeners>
+  <test name="Snow_ServiceCatalog_OMtoSNOW(failed)">
+    <classes>
+      <class name="ricoh.web.snow.tests.Snow_ServiceCatalog_OMtoSNOW">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="fnVerify_Snow_MSTDirectCatalogRequest"/>
+          <include name="fnSetUp"/>
+        </methods>
+      </class> <!-- ricoh.web.snow.tests.Snow_ServiceCatalog_OMtoSNOW -->
+    </classes>
+  </test> <!-- Snow_ServiceCatalog_OMtoSNOW(failed) -->
+</suite> <!-- Failed suite [RICOH-SNOW-Automation] -->

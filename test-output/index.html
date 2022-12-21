@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RICOH-SNOW-Automation" class="navigator-link">
+              <span class="suite-name border-passed">RICOH-SNOW-Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RICOH-SNOW-Automation" class="navigator-link ">
+                    <span>C:\Users\E007322\SNOW\SNOW\testng_xmls\SNOW\Snow_ServiceCatalog_OMtoSNOW.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RICOH-SNOW-Automation" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RICOH-SNOW-Automation" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RICOH-SNOW-Automation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RICOH-SNOW-Automation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RICOH-SNOW-Automation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RICOH-SNOW-Automation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RICOH-SNOW-Automation" class="hide-methods passed suite-RICOH-SNOW-Automation"> (hide)</a> <!-- hide-methods passed suite-RICOH-SNOW-Automation -->
+                      <a href="#" panel-name="suite-RICOH-SNOW-Automation" class="show-methods passed suite-RICOH-SNOW-Automation"> (show)</a> <!-- show-methods passed suite-RICOH-SNOW-Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-RICOH-SNOW-Automation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RICOH-SNOW-Automation" title="ricoh.web.snow.tests.Snow_ServiceCatalog_OMtoSNOW" class="method navigator-link" hash-for-method="fnVerify_Snow_CatalogRequest_OMtoSNOWFlow(SAND2, 101939670)">fnVerify_Snow_CatalogRequest_OMtoSNOWFlow(SAND2, 101939670)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RICOH-SNOW-Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RICOH-SNOW-Automation" class="panel RICOH-SNOW-Automation">
+          <div class="suite-RICOH-SNOW-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ricoh.web.snow.tests.Snow_ServiceCatalog_OMtoSNOW</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnVerify_Snow_CatalogRequest_OMtoSNOWFlow(SAND2, 101939670)">
+                  </a> <!-- fnVerify_Snow_CatalogRequest_OMtoSNOWFlow(SAND2, 101939670) -->
+                  <span class="method-name">fnVerify_Snow_CatalogRequest_OMtoSNOWFlow</span>
+                  <span class="parameters">(SAND2, 101939670)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RICOH-SNOW-Automation-class-passed -->
+        </div> <!-- panel RICOH-SNOW-Automation -->
+        <div panel-name="test-xml-RICOH-SNOW-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\E007322\SNOW\SNOW\testng_xmls\SNOW\Snow_ServiceCatalog_OMtoSNOW.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RICOH-SNOW-Automation&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;Project&quot; value=&quot;SNOW&quot;/&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;Ricoh@2022&quot;/&gt;
+  &lt;parameter name=&quot;AppTestEnv&quot; value=&quot;qa&quot;/&gt;
+  &lt;parameter name=&quot;BrowserUT&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;loginType&quot; value=&quot;NonSSO&quot;/&gt;
+  &lt;parameter name=&quot;DBName&quot; value=&quot;SAND2&quot;/&gt;
+  &lt;parameter name=&quot;OrderNumber&quot; value=&quot;101939670&quot;/&gt;
+  &lt;parameter name=&quot;ExecutionEnv&quot; value=&quot;local&quot;/&gt;
+  &lt;parameter name=&quot;userRole&quot; value=&quot;girish.bandaru@ricoh-usa.com&quot;/&gt;
+  &lt;parameter name=&quot;testRunName&quot; value=&quot;Regression testing&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ricoh.core.listeners.TestNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Snow_ServiceCatalog_OMtoSNOW&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ricoh.web.snow.tests.Snow_ServiceCatalog_OMtoSNOW&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Snow_ServiceCatalog_OMtoSNOW --&gt;
+&lt;/suite&gt; &lt;!-- RICOH-SNOW-Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RICOH-SNOW-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RICOH-SNOW-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Snow_ServiceCatalog_OMtoSNOW (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RICOH-SNOW-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RICOH-SNOW-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RICOH-SNOW-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RICOH-SNOW-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RICOH-SNOW-Automation');
+function tableData_RICOH-SNOW-Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fnVerify_Snow_CatalogRequest_OMtoSNOWFlow')
+data.setCell(0, 2, 'ricoh.web.snow.tests.Snow_ServiceCatalog_OMtoSNOW')
+data.setCell(0, 3, 8872);
+window.suiteTableData['RICOH-SNOW-Automation']= { tableData: data, tableDiv: 'times-div-RICOH-SNOW-Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-RICOH-SNOW-Automation">
+              </div> <!-- times-div-RICOH-SNOW-Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RICOH-SNOW-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RICOH-SNOW-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fnVerify_Snow_CatalogRequest_OMtoSNOWFlow(SAND2, 101939670)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin Test :- fnVerify_Snow_CatalogRequest_OMtoSNOWFlow</span>
+                <span class="reporter-method-output">About to begin executing method :- Snow_ServiceCatalog_OMtoSNOW.fnVerify_Snow_CatalogRequest_OMtoSNOWFlow</span>
+                <span class="reporter-method-output">Completed executing method  :- Snow_ServiceCatalog_OMtoSNOW.fnVerify_Snow_CatalogRequest_OMtoSNOWFlow</span>
+                <span class="reporter-method-output">Test case : fnVerify_Snow_CatalogRequest_OMtoSNOWFlow passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RICOH-SNOW-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RICOH-SNOW-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ricoh.web.snow.tests.Snow_ServiceCatalog_OMtoSNOW</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite(SNOW, chrome, local, qa, Regression testing)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(SNOW, org.testng.TestRunner@403c3a01)</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">fnSetUp</span>
+                <span class="method-start">8728 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">fnsnowlogin(girish.bandaru@ricoh-usa.com, Ricoh@2022, NonSSO)</span>
+                <span class="method-start">8793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fnVerify_Snow_CatalogRequest_OMtoSNOWFlow(SAND2, 101939670)</span>
+                <span class="method-start">22212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">snowLogOut</span>
+                <span class="method-start">31086 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">32479 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

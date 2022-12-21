@@ -1,0 +1,30 @@
+
+{
+	"apps": [
+		
+		{
+			"name": "SNOW",
+			"pageTitle": "Ricoh Imagine Change | Powered by ServiceNOW",
+			"environments": [
+				{
+					"name": "qa",
+				    "url": "https://ricohusamsintdev.service-now.com/",
+					"username": "",
+					"password": ""
+				}
+			]
+			}
+			],
+ 	"databases": [
+              {
+            "dbname": "SAND2",
+        	"dbtype": "oracle",
+        	"dbservername": "jdbc:oracle:thin:@ios10701e.dc.ricohonline.org:1510/EBS_SAND2",
+        	"username": "QASQL_USER",
+        	"password": "Ricohqasql_123" 
+
+              }
+              
+       ]		
+			
+}
